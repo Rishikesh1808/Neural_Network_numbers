@@ -1,0 +1,65 @@
+# Environment variables — never commit secrets
+.env
+.env*.local
+.env.*
+!.env.example
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Downloaded dataset & data caches
+data/
+*.csv
+*.tsv
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Trained model weights & checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & profiling
+*.log
+runs/
+wandb/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+
+# Operating System files
+Thumbs.db
+desktop.ini
+.DS_Store
